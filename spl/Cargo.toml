@@ -11,7 +11,7 @@ all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
 [features]
-default = ["associated_token", "mint", "token", "token_2022", "token_2022_extensions"]
+default = ["associated_token", "mint", "token"]
 associated_token = ["spl-associated-token-account"]
 dex = ["serum_dex"]
 devnet = []
